@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app-first';
+  title = 'My App';
+  print: String;
+  getValue(selected :String)
+  {
+    this.print=selected;
+  }
 }
+
+
